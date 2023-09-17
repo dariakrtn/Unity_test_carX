@@ -21,6 +21,7 @@ public class CannonTower : MonoBehaviour {
 				continue;
 
 			// shot
+			
 			Instantiate(m_projectilePrefab, m_shootPoint.position, m_shootPoint.rotation);
 
 			m_lastShotTime = Time.time;
